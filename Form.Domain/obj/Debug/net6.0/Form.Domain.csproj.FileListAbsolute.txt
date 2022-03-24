@@ -1,0 +1,12 @@
+C:\Users\ianna\form\Form.Domain\bin\Debug\net6.0\Form.Domain.deps.json
+C:\Users\ianna\form\Form.Domain\bin\Debug\net6.0\Form.Domain.dll
+C:\Users\ianna\form\Form.Domain\bin\Debug\net6.0\ref\Form.Domain.dll
+C:\Users\ianna\form\Form.Domain\bin\Debug\net6.0\Form.Domain.pdb
+C:\Users\ianna\form\Form.Domain\obj\Debug\net6.0\Form.Domain.csproj.AssemblyReference.cache
+C:\Users\ianna\form\Form.Domain\obj\Debug\net6.0\Form.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ianna\form\Form.Domain\obj\Debug\net6.0\Form.Domain.AssemblyInfoInputs.cache
+C:\Users\ianna\form\Form.Domain\obj\Debug\net6.0\Form.Domain.AssemblyInfo.cs
+C:\Users\ianna\form\Form.Domain\obj\Debug\net6.0\Form.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ianna\form\Form.Domain\obj\Debug\net6.0\Form.Domain.dll
+C:\Users\ianna\form\Form.Domain\obj\Debug\net6.0\ref\Form.Domain.dll
+C:\Users\ianna\form\Form.Domain\obj\Debug\net6.0\Form.Domain.pdb

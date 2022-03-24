@@ -1,0 +1,17 @@
+C:\Users\ianna\form\Form.Infra\bin\Debug\net6.0\Form.Infra.deps.json
+C:\Users\ianna\form\Form.Infra\bin\Debug\net6.0\Form.Infra.runtimeconfig.json
+C:\Users\ianna\form\Form.Infra\bin\Debug\net6.0\Form.Infra.dll
+C:\Users\ianna\form\Form.Infra\bin\Debug\net6.0\ref\Form.Infra.dll
+C:\Users\ianna\form\Form.Infra\bin\Debug\net6.0\Form.Infra.pdb
+C:\Users\ianna\form\Form.Infra\bin\Debug\net6.0\Form.Domain.dll
+C:\Users\ianna\form\Form.Infra\bin\Debug\net6.0\Form.Domain.pdb
+C:\Users\ianna\form\Form.Infra\obj\Debug\net6.0\Form.Infra.csproj.AssemblyReference.cache
+C:\Users\ianna\form\Form.Infra\obj\Debug\net6.0\Form.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ianna\form\Form.Infra\obj\Debug\net6.0\Form.Infra.AssemblyInfoInputs.cache
+C:\Users\ianna\form\Form.Infra\obj\Debug\net6.0\Form.Infra.AssemblyInfo.cs
+C:\Users\ianna\form\Form.Infra\obj\Debug\net6.0\Form.Infra.csproj.CoreCompileInputs.cache
+C:\Users\ianna\form\Form.Infra\obj\Debug\net6.0\Form.Infra.csproj.CopyComplete
+C:\Users\ianna\form\Form.Infra\obj\Debug\net6.0\Form.Infra.dll
+C:\Users\ianna\form\Form.Infra\obj\Debug\net6.0\ref\Form.Infra.dll
+C:\Users\ianna\form\Form.Infra\obj\Debug\net6.0\Form.Infra.pdb
+C:\Users\ianna\form\Form.Infra\obj\Debug\net6.0\Form.Infra.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AtXqogF0Pv2r/zddUAei+PgfmFzHxXZOX/63yMf6SstgGkDRn4KhGtGwoFVyVCfmRKwK39N7iXRI7RcHXJ84Aw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ianna\\form\\Form.Domain\\Form.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ianna\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
