@@ -2,19 +2,15 @@ namespace Form.Domain.Entities;
 
 public class FormTemplate : Base
 {
-    public FormTemplate()
+    public FormTemplate(string title, string author, int edition)
     {
-
-    }
-    public FormTemplate(User user, Address address)
-    {
-        User = user;
-        Address = address;
-        CreatedDate = DateTime.UtcNow.Date;
+        Title = title;
+        Author = author;
+        Edition = edition;
     }
 
-
-    public User User { get; private set; }
-    public Address Address { get; private set; }
-    public DateTime CreatedDate { get; private set; }
+    public string Title { get; set; }
+    public string  Author { get; set; }
+    public int  Edition { get; set; }
+   
 }

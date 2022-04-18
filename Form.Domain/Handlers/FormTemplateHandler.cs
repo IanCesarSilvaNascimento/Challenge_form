@@ -29,10 +29,8 @@ public class FormTemplateHandler :
             AddNotifications(command);
             return new CommandResult(false, "Não foi possível incluir seu formulário", command.Notifications);
         }
-
-        var user = new User(command.FirstName, command.LastName, command.Gender, command.Email);
-        var address = new Address(command.City, command.State, command.Country);
-        var formTemplate = new FormTemplate(user, address);
+    
+        var formTemplate = new FormTemplate(command.Title,command.Author,command.Edition);
 
         _repository.Create(formTemplate);
 

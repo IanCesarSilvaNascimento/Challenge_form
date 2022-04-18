@@ -5,12 +5,12 @@ using Form.Domain.Commands.Contracts;
 namespace Form.Domain.Commands;
 public class DeleteFormTemplateCommand : Notifiable, ICommand
 {
-    public DeleteFormTemplateCommand(string id)
+    public DeleteFormTemplateCommand(int id)
     {
         Id = id;
     }
 
-    public string Id { get; private set; }
+    public int Id { get; set; }
 
     public void Validate()
     {

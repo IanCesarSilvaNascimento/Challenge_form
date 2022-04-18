@@ -1,8 +1,8 @@
 using Form.Domain.Entities;
+using Form.Domain.Queries;
 using Form.Domain.Repositories;
 using Form.Infra.Data;
-
-
+using Microsoft.EntityFrameworkCore;
 
 namespace Form.Infra.Repositories;
 
@@ -30,12 +30,20 @@ public class FormTemplateRepository : IFormTemplateRepository
 
     public IEnumerable<FormTemplate> GetAll()
     {
-        var item = _context.FormTemplates.OrderBy(x => x.CreatedDate).AsEnumerable<FormTemplate>();
-        return  item;
+        var item = _context.FormTemplates.OrderBy(x => x.Id).AsEnumerable<FormTemplate>();
+        return item;
     }
 
-    public FormTemplate GetById(string id)
+    public FormTemplate GetById(int id)
     {
         return _context.FormTemplates.FirstOrDefault(x => x.Id == id);
+    }
+
+    public IEnumerable<FormTemplate> GetAllQuery(string author)
+    {
+        return _context.FormTemplates
+           .AsNoTracking()
+           .Where(FormQuery.GetAllQuery(author))
+           .OrderBy(x => x.Title);
     }
 }

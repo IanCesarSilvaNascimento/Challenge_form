@@ -14,8 +14,16 @@ public class FormTemplateController : ControllerBase
     public IEnumerable<FormTemplate> GetAllFormTemplates(
         [FromServices] IFormTemplateRepository repository)
     {
-       
+
         return repository.GetAll();
+    }
+
+    [HttpGet("/{author}")]
+    public IEnumerable<FormTemplate> GetAllQueryFormTemplates(
+        [FromRoute] string author,
+        [FromServices] IFormTemplateRepository repository)
+    {      
+        return repository.GetAllQuery(author);
     }
 
 
@@ -29,9 +37,9 @@ public class FormTemplateController : ControllerBase
     }
 
 
-    [HttpDelete("")]
+    [HttpDelete("/{id:int}")]
     public CommandResult DeleteById(
-        [FromBody] string id,
+        [FromRoute] int id,
         [FromServices] FormTemplateHandler handler)
     {
         var command = new DeleteFormTemplateCommand(id);
